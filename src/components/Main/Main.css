@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    padding: 0 120px;
+}
+
+@media screen and (max-width: 970px) {
+    main {
+        padding: 0 50px;
+    }
+}

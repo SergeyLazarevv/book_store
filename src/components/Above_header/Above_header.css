@@ -1,0 +1,33 @@
+.above_header {
+    background-color: rgba(0,0,0,.8);
+    padding: 0 120px;
+}
+.above_header-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+.above_header-item {
+    color: rgba(255,250,250,.8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+.above_header-item:last-child {
+    margin: 0;
+}
+.above_header-item:hover {
+    cursor: pointer;
+    color: rgba(230,220,220,.8)
+}
+
+@media screen and (max-width: 920px) {
+    .above_header {
+        padding: 0;
+    }
+    .above_header-list {
+        justify-content: center;
+    }
+}

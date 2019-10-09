@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    max-width: 1440px;
+    min-width: 760px;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 1440px) {
+    .app {
+        margin: 0 auto;
+    }
+}

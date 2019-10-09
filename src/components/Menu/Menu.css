@@ -1,0 +1,34 @@
+.underHeader_menu {
+    padding: 0 120px;
+    border-bottom: 1px solid rgba(214,214,214,.8);
+}
+.underHeader_menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 700px;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.underHeader_menu ul li {
+    padding: 10px;
+}
+.underHeader_menu ul li:first-child {
+    padding-left: 0;
+}
+.underHeader_menu ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+.underHeader_menu ul li:hover {
+    cursor: pointer;
+    background-color: rgba(143,211,113,.8);
+    color: snow;
+}
+@media screen and (max-width: 970px) {
+    .underHeader_menu {
+        padding: 5px 50px;
+    }
+}
