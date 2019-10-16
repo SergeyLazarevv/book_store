@@ -5,11 +5,10 @@
     padding: 10px;
     height: 100%;
 }
-h2 {
+.MainMenu-wrap h2 {
     margin: 5px 0;
 }
-h2:hover,
-h3:hover {
+.MainMenu-wrap h3:hover {
     cursor: pointer;
     color: rgba(143,211,113,.8);
 }
@@ -34,4 +33,15 @@ h3:hover {
 }
 .active {
     display: block;
+}
+@media screen and (max-width: 970px) {
+    .MainMenu-wrap h2 {
+        font-size: 20px;
+    }
+    .MainMenu-wrap h3 {
+        font-size: 18px;
+    }
+    .mainMenuList li {
+        font-size: 14px;
+    }
 }

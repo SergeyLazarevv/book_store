@@ -1,38 +1,51 @@
 [
     {
         "title": "The Hare With Amber Eyes",
-        "image": "./img/Books/ege.jpg",
+        "image": "../../../img/Books/ege.jpg",
         "price": "20$",
-        "category": "Horror"
+        "category": "Horror",
+        "id": "1"
     },
     {
         "title": "stiven king idet v kino",
         "image": "./img/Books/stiven_king_idet_v_kino.jpg",
         "price": "25$",
-        "category": "Horror"
+        "category": "Horror",
+        "id": "2"
     },
     {
-        "title": "banditskiy_peterburg",
+        "title": "banditskiy peterburg",
         "image": "./img/Books/banditskiy_peterburg",
         "price": "20$",
-        "category": "Fantasy"
+        "category": "Fantasy",
+        "id": "3"
     },
     {
         "title": "begushiy v labirinte",
         "image": "./img/Books/begushiy_v_labirinte.jpg",
         "price": "20$",
-        "category": "Fantasy"
+        "category": "Fantasy",
+        "id": "4"
     },
     {
         "title": "edinstvenniy grechniy",
         "image": "./img/Books/edinstvenniy_grechniy.jpg",
         "price": "20$",
-        "category": "Fantasy"
+        "category": "Fantasy",
+        "id": "5"
     },
     {
         "title": "enigma variacii",
         "image": "./img/Books/enigma_variacii.jpg",
         "price": "20$",
-        "category": "Fantasy"
+        "category": "Fantasy",
+        "id": "6"
+    },
+    {
+        "title": "enigma book",
+        "image": "./img/Books/enigma_variacii.jpg",
+        "price": "20$",
+        "category": "Fantasy",
+        "id": "7"
     }
 ]

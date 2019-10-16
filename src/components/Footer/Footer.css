@@ -1,0 +1,31 @@
+footer {
+    background-color: rgba(63,63,64,1);
+    color:rgba(255,250,250,.6);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 120px;
+    margin-top: 10px;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255,250,250,.3);
+    margin-bottom: 5px;
+}
+footer ul li:hover {
+    cursor: pointer;
+    color: rgba(143,211,113,.8);
+}
+@media screen and (max-width: 1170px) {
+    footer {
+        padding: 20px;
+    }
+    footer div {
+        width: 45%;
+    }
+}

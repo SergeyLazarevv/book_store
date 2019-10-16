@@ -1,18 +1,48 @@
 import React from 'react'
 import './Content.css'
+import jsonData from '../../../Data.json'
 import BooksMacket from '../BooksMacket/BooksMacket'
+import {connect} from 'react-redux'
 
-let Content = () => {
-    return (
-        <div className='content'>
-            <BooksMacket />
-            <BooksMacket />
-            <BooksMacket />
-            <BooksMacket />
-            <BooksMacket />
-            <BooksMacket />
-        </div>
-    )
+class Content extends React.Component {
+    constructor() {
+        super()
+    }
+    componentDidMount() {
+
+    }
+    render() {
+        console.log(jsonData)
+        let book = jsonData.map((item) => {
+                return item.category === this.props.currentCategory && <BooksMacket key={item.id} 
+                                image={item.image} 
+                                price={item.price} 
+                                title={item.title} />
+            })
+        return (
+            <div className='content'>
+                <div className='content_books_wrap'>
+                    {book}
+                </div>
+            </div>
+        )
+    }
 }
 
-export default Content
+let mapStateToProps = (state) => {
+    return {
+        currentCategory: state.currentCategory
+    };
+}
+/*
+let mapDispatchToProps = (dispatch) => {
+    return {
+        addProfilePhoto: (file,imageUrl) => {
+          dispatch(addUserPhoto(file,imageUrl))  
+        }
+    }
+}
+
+*/
+
+export default connect(mapStateToProps)(Content)

@@ -9,7 +9,7 @@ import ShoppingCartContainer from '../../containers/ShoppingCart'
 let Header = () => {
     return (
         <header>
-            <img className='header-logo' src={header_logo} />
+            <img className='header-logo' src={header_logo} alt='logo'/>
             <Search />
             <ShoppingCartContainer />
             <div className='wishList'>

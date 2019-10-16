@@ -1,9 +1,11 @@
 import React from 'react'
 import './MainMenu.css'
+import {connect} from 'react-redux'
+import changeCategoryAction from '../../../actions/changeCategoryAction'
 
 class MainMenu extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             isOpen_All: false,
             isOpen_Fiction: false,
@@ -12,7 +14,6 @@ class MainMenu extends React.Component {
         }
     }
     DropMenuToggle = (some) => {
-        console.log('done')
         switch (some) {
             case 'all': this.setState({isOpen_All: !this.state.isOpen_All});
                 break;
@@ -34,10 +35,10 @@ class MainMenu extends React.Component {
             <ul className='mainMenuList'style={{display: this.state.isOpen_All ? 'block' : 'none'}}>
                 <li>Children</li>
                 <li>Science </li>
-                <li>Fantasy</li>
+                <li onClick={() => this.props.changeCategory('Fantasy')}>Fantasy</li>
                 <li>Mystery</li>
                 <li>Romance</li>
-                <li>Horror</li>
+                <li onClick={() => this.props.changeCategory('Horror')}>Horror</li>
                 <li>Poetry</li>
                 <li>Literature</li>
                 <li>Crime</li>
@@ -95,4 +96,18 @@ class MainMenu extends React.Component {
 }
 }
 
-export default MainMenu
+let mapStateToProps = (state) => {
+    return {
+        state: state
+    }
+}
+let mapDispatchToProps = (dispatch) => {
+    return {
+        changeCategory: (category) => {
+            dispatch(changeCategoryAction(category))
+        }
+        
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(MainMenu)

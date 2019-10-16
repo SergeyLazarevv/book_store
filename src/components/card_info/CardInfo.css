@@ -1,0 +1,16 @@
+.cardInfo {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom:1px solid rgba(250,250,250,.7);
+    background-color: rgba(46,45,50,1);
+    color: rgba(255,250,250,.7);
+}
+.cardInfo .card_image_wrap {
+    padding: 10px 0;
+    border-bottom:1px solid rgba(250,250,250,.6);
+}
+.conditions {
+    display: block;
+    padding: 30px;
+}

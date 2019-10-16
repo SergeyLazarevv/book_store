@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import MainMenuComponent from '../components/Main/MainMenu/MainMenu'
 import {connect} from 'react-redux'
 
@@ -18,7 +18,7 @@ let mapStateToProps = (state) => {
         isOpen: state.cart
     };
 }
-/*
+
 let mapDispatchToProps = (dispatch) => {
     return {
         addProfilePhoto: (file,imageUrl) => {
@@ -27,6 +27,6 @@ let mapDispatchToProps = (dispatch) => {
     }
 }
 
-*/
 
-export default connect(mapStateToProps,mapDispatchToProps)(MainMenu)
+
+export default connect(mapStateToProps,mapDispatchToProps)(MainMenu) */

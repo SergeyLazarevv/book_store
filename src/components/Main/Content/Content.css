@@ -2,9 +2,10 @@
     flex: auto;
     border: 1px solid rgba(214,214,214,.8);
     margin-top: 10px;
+    /*padding: 10px;*/
+    min-height: 1120px;
+}
+.content_books_wrap {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    padding: 10px;
-    height: auto;
+    flex-wrap: wrap;
 }

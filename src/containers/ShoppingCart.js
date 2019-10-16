@@ -3,9 +3,9 @@ import ShoppingCart from '../components/Header/ShoppingCart'
 import {connect} from 'react-redux'
 
 class ShoppingCartContainer extends React.Component {
-    constructor() {
+    /*constructor() {
         super()
-    }
+    }*/
     render() {
         return (
             <ShoppingCart booksValue={this.props.booksValue} />
