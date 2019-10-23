@@ -1,7 +1,10 @@
 .book_wrap {
+    display: block;
     margin: 20px;
     width: 130px;
     text-align: center;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
 }
 .book_wrap:hover img{
     cursor: pointer;
@@ -10,7 +13,7 @@
 .book_title,
 .book_price {
     display: block;                        
-    width: 130px;
+    max-width: 130px;
     text-align: center;
     font-size: 16px;
     padding-bottom: 10px;

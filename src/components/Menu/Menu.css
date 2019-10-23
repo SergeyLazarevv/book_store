@@ -10,7 +10,8 @@
     margin: 0;
     min-width: 700px;
     justify-content: space-between;
-    font-size: 1.6vw; /*24*/
+    font-size: 1,2vw; /*24*/
+    min-width: 850px;
 }
 .underHeader_menu ul li {
     padding: 10px;
@@ -30,5 +31,8 @@
 @media screen and (max-width: 970px) {
     .underHeader_menu {
         padding: 0px 50px;
+    }
+    .underHeader_menu ul {
+        font-size: 16px;
     }
 }

@@ -12,7 +12,6 @@ class Content extends React.Component {
 
     }
     render() {
-        console.log(jsonData)
         let book = jsonData.map((item) => {
                 return item.category === this.props.currentCategory && <BooksMacket key={item.id} 
                                 image={item.image} 
@@ -21,6 +20,7 @@ class Content extends React.Component {
             })
         return (
             <div className='content'>
+                <h2>{this.props.currentCategory}</h2>
                 <div className='content_books_wrap'>
                     {book}
                 </div>

@@ -6,14 +6,23 @@ import Menu from './components/Menu/Menu'
 import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
 import CardInfo from './components/card_info/CardInfo'
+import {BrowserRouter,Route} from 'react-router-dom'
+import SellPage from './components/SellPage/SellPage'
 
 function App() {
   return (
     <div className='app'>
+      <BrowserRouter>
       <AboveHeader />
       <Header />
-      <Menu />
-      <Main />
+        {/*<Menu />
+        <Main />
+        <Footer />
+        <CardInfo />*/}
+        <Route exact path='/' component={Menu} />
+        <Route exact path='/' component={Main} />
+        <Route path='/SellPage' component={SellPage} />
+      </BrowserRouter>
       <Footer />
       <CardInfo />
     </div>

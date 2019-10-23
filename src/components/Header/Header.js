@@ -5,11 +5,12 @@ import star from '../../img/Header/star.png'
 import Search from './Search'
 //import ShoppingCart from './ShoppingCart'
 import ShoppingCartContainer from '../../containers/ShoppingCart'
+import {Link} from 'react-router-dom';
 
 let Header = () => {
     return (
         <header>
-            <img className='header-logo' src={header_logo} alt='logo'/>
+            <Link to='/'> <img className='header-logo' src={header_logo} alt='logo'/></Link>
             <Search />
             <ShoppingCartContainer />
             <div className='wishList'>
