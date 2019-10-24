@@ -1,38 +1,117 @@
 [
     {
+        "id":1,
         "title":"Children",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":2,
         "title":"Science",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":3,
         "title":"Fantasy",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":4,
         "title":"Mystery",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":5,
         "title":"Romance",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":6,
         "title":"Horror",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":7,
         "title":"Poetry",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":8,
         "title":"Literature",
-        "category":""
+        "category":"Fiction & Literature"
     },
     {
+        "id":9,
         "title":"Crime",
-        "category":""
+        "category":"Non Fiction"
+    },
+    {
+        "id":10,
+        "title":"Comic",
+        "category":"Non Fiction"
+    },
+    {
+        "id":11,
+        "title":"Cook",
+        "category":"Non Fiction"
+    },
+    {
+        "id":12,
+        "title":"Psychology",
+        "category":"Non Fiction"
+    },
+    {
+        "id":13,
+        "title":"Medical",
+        "category":"Non Fiction"
+    },
+    {
+        "id":14,
+        "title":"Art",
+        "category":"Non Fiction"
+    },
+    {
+        "id":15,
+        "title":"Photography",
+        "category":"Non Fiction"
+    },
+    {
+        "id":16,
+        "title":"Law",
+        "category":"Other"
+    },
+    {
+        "id":17,
+        "title":"History",
+        "category":"Other"
+    },
+    {
+        "id":18,
+        "title":"Business",
+        "category":"Other"
+    },
+    {
+        "id":19,
+        "title":"Computer",
+        "category":"Other"
+    },
+    {
+        "id":20,
+        "title":"Baby",
+        "category":"Other"
+    },
+    {
+        "id":21,
+        "title":"Sex",
+        "category":"Other"
+    },
+    {
+        "id":22,
+        "title":"Travel",
+        "category":"Other"
+    },
+    {
+        "id":"23",
+        "title":"Sports",
+        "category":"Other"
     }
 ]

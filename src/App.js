@@ -15,10 +15,6 @@ function App() {
       <BrowserRouter>
       <AboveHeader />
       <Header />
-        {/*<Menu />
-        <Main />
-        <Footer />
-        <CardInfo />*/}
         <Route exact path='/' component={Menu} />
         <Route exact path='/' component={Main} />
         <Route path='/SellPage' component={SellPage} />

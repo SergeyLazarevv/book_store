@@ -3,7 +3,6 @@ import './Header.css'
 import header_logo from '../../img/Header/logo.png'
 import star from '../../img/Header/star.png'
 import Search from './Search'
-//import ShoppingCart from './ShoppingCart'
 import ShoppingCartContainer from '../../containers/ShoppingCart'
 import {Link} from 'react-router-dom';
 
