@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 let BooksMacket = (props) => {
     return (
-        <Link to='/SellPage' className='book_wrap' key={props.id}>
+        <Link to='/SellPage' className='book_wrap' key={props.id} onClick={()=>props.changeCurrentBook(props.title)}>
             <img className='book_img' src={image} alt='books_image' />
             <span className='book_title'>{props.title}</span>
             <span className="book_price">{props.price} rur</span>

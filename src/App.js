@@ -7,7 +7,7 @@ import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
 import CardInfo from './components/card_info/CardInfo'
 import {BrowserRouter,Route} from 'react-router-dom'
-import SellPage from './components/SellPage/SellPage'
+import SellPage from './containers/SellPage'
 
 function App() {
   return (

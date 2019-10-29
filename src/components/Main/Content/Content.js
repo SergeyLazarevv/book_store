@@ -3,20 +3,19 @@ import './Content.css'
 import jsonData from '../../../Data.json'
 import BooksMacket from '../BooksMacket/BooksMacket'
 import {connect} from 'react-redux'
+import changeCurrentBook from '../../../actions/changeCurrentBook'
 
 class Content extends React.Component {
-    constructor() {
-        super()
-    }
-    componentDidMount() {
-
+    constructor(props) {
+        super(props)
     }
     render() {
         let book = jsonData.map((item) => {
                 return item.category === this.props.currentCategory && <BooksMacket key={item.id} 
                                 image={item.image} 
                                 price={item.price} 
-                                title={item.title} />
+                                title={item.title} 
+                                changeCurrentBook={this.props.changeCurrentBook} />
             })
         return (
             <div className='content'>
@@ -34,15 +33,15 @@ let mapStateToProps = (state) => {
         currentCategory: state.currentCategory
     };
 }
-/*
+
 let mapDispatchToProps = (dispatch) => {
     return {
-        addProfilePhoto: (file,imageUrl) => {
-          dispatch(addUserPhoto(file,imageUrl))  
+        changeCurrentBook: (book) => {
+          dispatch(changeCurrentBook(book))  
         }
     }
 }
 
-*/
 
-export default connect(mapStateToProps)(Content)
+
+export default connect(mapStateToProps,mapDispatchToProps)(Content)

@@ -1,0 +1,8 @@
+.bookInfo_wrap {
+    border:1px solid gray;
+    display: flex;
+}
+.bookImage {
+    width: 230px;
+    height: 300px;
+}

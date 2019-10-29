@@ -2,3 +2,8 @@
     min-height: 600px;
     padding: 20px 120px;
 }
+@media screen and (max-width: 970px) {
+    .sellPage {
+        padding: 5px 50px;
+    }
+}
