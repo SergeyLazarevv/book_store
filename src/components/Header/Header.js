@@ -12,10 +12,10 @@ let Header = () => {
             <Link to='/'> <img className='header-logo' src={header_logo} alt='logo'/></Link>
             <Search />
             <ShoppingCartContainer />
-            <div className='wishList'>
+            <Link to='/wishListPage' className='wishList'>
                 <img className='wishList-logo' src={star} alt='star'/>
                 <div>Wish List</div>
-            </div>
+            </Link>
         </header>
     )
 }

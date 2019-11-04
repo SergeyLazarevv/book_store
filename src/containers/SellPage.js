@@ -9,7 +9,9 @@ class SellPage extends React.Component {
         return (
             <div>
                 <BookInfoComponent currentBook={this.props.currentBook}/>
-                <BuyBtns addBookToCart={this.props.addBookToCart} currentBook={this.props.currentBook}/>
+                <BuyBtns addBookToCart={this.props.addBookToCart}
+                         addBookToWishList={this.props.addBookToWishList} 
+                         currentBook={this.props.currentBook} />
             </div>
         )
     }
@@ -25,11 +27,13 @@ let mapStateToProps = (state) => {
 let mapDispatchToProps = (dispatch) => {
     return {
         addBookToCart: (book) => {
-          dispatch(addToCartAction(book))  
+          dispatch(addToCartAction(book))
+        },
+        addBookToWishList: (book) => {
+            dispatch(addToWishList(book))
         }
     }
 }
-
 
 
 export default connect(mapStateToProps,mapDispatchToProps)(SellPage)

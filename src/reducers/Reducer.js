@@ -2,6 +2,7 @@
 
 let initialState = {
     cart: [],
+    wishList: [],
     currentCategory: 'Horror',
     currentBook: {}
 }
@@ -24,6 +25,13 @@ const reducer = (state = initialState,action) => {
         return {
             ...state,
             cart: [...state.cart,action.payload]
+        }
+    }
+    if (action.type === 'ADD_TO_WISH_LIST') {
+        console.log(action.payload)
+        return {
+            ...state,
+            wishList: [...state.wishList,action.payload]
         }
     }
     console.log(state)
