@@ -2,462 +2,462 @@
     {
         "title": "The Hare With Amber Eyes",
         "image": "../../../img/Books/ege.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Horror",
         "id": "1"
     },
     {
         "title": "stiven king idet v kino",
         "image": "./img/Books/stiven_king_idet_v_kino.jpg",
-        "price": "25$",
+        "price": "25",
         "category": "Horror",
         "id": "2"
     },
     {
         "title": "banditskiy peterburg",
         "image": "./img/Books/banditskiy_peterburg",
-        "price": "20$",
+        "price": "20",
         "category": "Fantasy",
         "id": "3"
     },
     {
         "title": "begushiy v labirinte",
         "image": "./img/Books/begushiy_v_labirinte.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Fantasy",
         "id": "4"
     },
     {
         "title": "edinstvenniy grechniy",
         "image": "./img/Books/edinstvenniy_grechniy.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Fantasy",
         "id": "5"
     },
     {
         "title": "enigma variacii",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Fantasy",
         "id": "6"
     },
     {
         "title": "enigma book",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Fantasy",
         "id": "7"
     },
     {
         "title": "fantasy book",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Fantasy",
         "id": "8"
     },
     {
         "title": "Some horror book",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Horror",
         "id": "9"
     },
     {
         "title": "Some children book",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Children",
         "id": "10"
     },
     {
         "title": "Robin bobin",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Children",
         "id": "11"
     },
     {
         "title": "fairy tales",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Children",
         "id": "12"
     },
     {
         "title": "story of all",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Science",
         "id": "13"
     },
     {
         "title": "some science book",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Science",
         "id": "14"
     },
     {
         "title": "hamsters phisics",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Science",
         "id": "15"
     },
     {
         "title": "science is science",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Science",
         "id": "16"
     },
     {
         "title": "boo",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Mystery",
         "id": "17"
     },
     {
         "title": "boo 2",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Mystery",
         "id": "18"
     },
     {
         "title": "boo 3 - boo returns",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Mystery",
         "id": "19"
     },
     {
         "title": "rose home",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Romance",
         "id": "20"
     },
     {
         "title": "story of rome",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "10$",
+        "price": "10",
         "category": "Romance",
         "id": "21"
     },
     {
         "title": "o la la",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Romance",
         "id": "22"
     },
     {
         "title": "green window",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "25$",
+        "price": "25",
         "category": "Romance",
         "id": "23"
     },
     {
         "title": "silent",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "25$",
+        "price": "25",
         "category": "Romance",
         "id": "24"
     },
     {
         "title": "dostoevsky amasing anvanture",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Poetry",
         "id": "25"
     },
     {
         "title": "Anna Karenina",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "30$",
+        "price": "30",
         "category": "Poetry",
         "id": "26"
     },
     {
         "title": "Russian Literature part 1",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "100$",
+        "price": "100",
         "category": "Literature",
         "id": "27"
     },
     {
         "title": "Russian Literature part 2",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "120$",
+        "price": "120",
         "category": "Literature",
         "id": "28"
     },
     {
         "title": "she got a crime",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "1$",
+        "price": "1",
         "category": "Crime",
         "id": "29"
     },
     {
         "title": "the killer is the Butler",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Crime",
         "id": "30"
     },
     {
         "title": "strange dead",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "45$",
+        "price": "45",
         "category": "Crime",
         "id": "31"
     },
     {
         "title": "funni live",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Comic",
         "id": "32"
     },
     {
         "title": "not so funni live",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Comic",
         "id": "33"
     },
     {
         "title": "ha-ha or haha'nt",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Comic",
         "id": "34"
     },
     {
         "title": "Cook is easy",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Cook",
         "id": "35"
     },
     {
         "title": "big teasty book",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Cook",
         "id": "36"
     },
     {
         "title": "story of food",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "10$",
+        "price": "10",
         "category": "Cook",
         "id": "37"
     },
     {
         "title": "Psyhology for one hour",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Psychology",
         "id": "38"
     },
     {
         "title": "Psyhology for two hour",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Psychology",
         "id": "39"
     },
     {
         "title": "Psyhology now much is nedeed",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Psychology",
         "id": "40"
     },
     {
         "title": "blood and same staff",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Medical",
         "id": "41"
     },
     {
         "title": "big art",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Art",
         "id": "42"
     },
     {
         "title": "big art",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Art",
         "id": "43"
     },
     {
         "title": "middle art",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "30$",
+        "price": "30",
         "category": "Art",
         "id": "44"
     },
     {
         "title": "small art",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Art",
         "id": "45"
     },
     {
         "title": "photo master",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Photography",
         "id": "46"
     },
     {
         "title": "law is cool",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Law",
         "id": "47"
     },
     {
         "title": "law is not cool",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "20$",
+        "price": "20",
         "category": "Law",
         "id": "48"
     },
     {
         "title": "medieval history",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "History",
         "id": "49"
     },
     {
         "title": "history of books",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "History",
         "id": "50"
     },
     {
         "title": "Business secret",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Business",
         "id": "51"
     },
     {
         "title": "Business on the moon",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Business",
         "id": "52"
     },
     {
         "title": "How get the fork",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "10$",
+        "price": "10",
         "category": "Business",
         "id": "53"
     },
     {
         "title": "Windows install and any secret",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Computer",
         "id": "54"
     },
     {
         "title": "easy start",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Computer",
         "id": "55"
     },
     {
         "title": "how computer have eat a men",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Computer",
         "id": "56"
     },
     {
         "title": "how made a baby",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Baby",
         "id": "57"
     },
     {
         "title": "IE-6 supports",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Sex",
         "id": "58"
     },
     {
         "title": "kamautra",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "sex",
         "id": "59"
     },
     {
         "title": "story of bald guy",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "sex",
         "id": "60"
     },
     {
         "title": "product chop traveling",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "40$",
+        "price": "40",
         "category": "Travel",
         "id": "61"
     },
     {
         "title": "Syzran travel map",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "500$",
+        "price": "500",
         "category": "Travel",
         "id": "62"
     },
     {
         "title": "FIFA or UEFA how is right",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "500$",
+        "price": "500",
         "category": "Sports",
         "id": "63"
     },
     {
         "title": "basketball on horse, first steps",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "500$",
+        "price": "500",
         "category": "Sports",
         "id": "64"
     },
     {
         "title": "Polo legends",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "500$",
+        "price": "500",
         "category": "Sports",
         "id": "65"
     },
     {
         "title": "badminton story",
         "image": "./img/Books/enigma_variacii.jpg",
-        "price": "500$",
+        "price": "500",
         "category": "Sports",
         "id": "66"
     }

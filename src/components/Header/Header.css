@@ -43,6 +43,7 @@ label p {
     font-size: 24px;
 }
 .shopping_cart-wrap {
+    text-decoration: none;
     height: 60px;
     font-size: 24px;
     padding: 5px;
@@ -64,6 +65,7 @@ label p {
 }
 .buySum {
     width: 50%;
+    max-width: 100px;
     font-weight: bold;
     color: rgba(0,0,0,.7);
     font-size: 25px;

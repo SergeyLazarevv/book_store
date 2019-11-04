@@ -1,9 +1,10 @@
 import React from 'react'
 import shopping_cart from '../../img/Header/cart.png'
+import {Link} from 'react-router-dom'
 
 let ShoppingCart = (props) => {
     return  (
-        <div className='shopping_cart-wrap'>
+        <Link to='/CartPage' className='shopping_cart-wrap'>
             <div>
                 <img className='shopping_cart-logo' src={shopping_cart} alt='cart'/>
                 <span>Your Cart 
@@ -13,9 +14,17 @@ let ShoppingCart = (props) => {
                     </span>
                 </span>
             </div>
-            <div className='checkout-wrap'><span className='buySum'>125 ${/*Add summ*/}</span> <span className='checkout'>checkout</span></div>
-        </div>
+            <div className='checkout-wrap'>
+                <span className='buySum'>
+                 ${
+                    !props.booksValue.length>=1 ? '0' :
+                       props.booksValue.reduce((priceSum,book) => priceSum + parseInt(book.price),0)
+                 }
+                 </span> 
+                 <span className='checkout'>checkout</span>
+                 </div>
+            </Link>
     )
 }
-
+{/* props.booksValue.reduce((priceSum,book) => priceSum + parseInt(book.price)) */}
 export default ShoppingCart;

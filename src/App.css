@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Titillium+Web&display=swap');
 
 body {
     margin: 0;
@@ -8,7 +8,8 @@ body {
 .app {
     max-width: 1440px;
     min-width: 760px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Crimson Text', serif;
 }
 @media screen and (min-width: 1440px) {
     .app {

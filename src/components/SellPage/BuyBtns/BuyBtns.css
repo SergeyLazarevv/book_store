@@ -1,0 +1,30 @@
+.buyBtns_wrap {
+    border: 1px solid rgba(0,0,0,.5);
+    margin: 10px 120px;
+}
+.buyBtns_wrap button {
+    height: 40px;
+    margin-right: 10px;
+    color: rgba(0,0,0,.7);
+    font-weight: bold;
+    padding: 0 10px;
+}
+.buyBtns_wrap button:hover {
+    cursor: pointer;
+}
+.buyBtns_wrap button:focus {
+    outline: none;
+}
+.addToCard {
+    background-color: rgba(20,255,20,.8);
+    border-color: rgba(10,244,10,.5);
+}
+.addToWishList {
+    background-color: rgba(136, 54, 184, 0.7);
+}
+
+@media screen and (max-width: 970px) {
+    .buyBtns_wrap {
+        margin: 5px 50px;
+    }
+}

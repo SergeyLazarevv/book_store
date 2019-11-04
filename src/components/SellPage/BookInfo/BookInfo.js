@@ -7,8 +7,9 @@ let BookInfo = (props) => {
         <div className='bookInfo_wrap'>
             <img className='bookImage' src={BookImg} />
             <div className='bookInfo_textWrap'>
-            <h2>{props.currentBook}</h2>
-            <p>Old education him departure any arranging one prevailed. 
+            <h2>{props.currentBook.title}</h2>
+            <h3 className='bookInfo_price'>{props.currentBook.price} $</h3>
+            <p className='bookInfo_description'>Old education him departure any arranging one prevailed. 
                 Their end whole might began her. Behaved the comfort another fifteen eat. 
                 Partiality had his themselves ask pianoforte increasing discovered. 
                 So mr delay at since place whole above miles. He to observe conduct at detract because. 

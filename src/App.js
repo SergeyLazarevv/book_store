@@ -8,21 +8,37 @@ import Footer from './components/Footer/Footer'
 import CardInfo from './components/card_info/CardInfo'
 import {BrowserRouter,Route} from 'react-router-dom'
 import SellPage from './containers/SellPage'
+import {connect} from 'react-redux'
+import CartPage from './containers/CartPage'
+import {Redirect} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className='app'>
-      <BrowserRouter>
-      <AboveHeader />
-      <Header />
-        <Route exact path='/' component={Menu} />
-        <Route exact path='/' component={Main} />
-        <Route path='/SellPage' component={SellPage} />
-      </BrowserRouter>
-      <Footer />
-      <CardInfo />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className='app'>
+        <BrowserRouter>
+        <AboveHeader />
+        <Header />
+          <Route exact path='/' component={Menu} />
+          <Route exact path='/' component={Main} />
+          {/* this.props.currentBook ?
+                  <Route path='/SellPage' component={SellPage} />
+                  : <Redirect from="/SellPage" to="/" />
+          */}
+          <Route exact path='/SellPage' component={SellPage} />
+          <Route exact path='/CartPage' component={CartPage} />
+        </BrowserRouter>
+        <Footer />
+        <CardInfo />
+      </div>
+    );
+  }
+}
+  
+let mapStateToProps = (state) => {
+  return {
+      currentBook: state.currentBook
+  };
 }
 
-export default App;
+export default connect(mapStateToProps)(App);

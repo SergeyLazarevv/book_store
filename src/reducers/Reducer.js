@@ -3,24 +3,30 @@
 let initialState = {
     cart: [],
     currentCategory: 'Horror',
-    currentBook: 'some book'
+    currentBook: {}
 }
 
 const reducer = (state = initialState,action) => {
     if (action.type === 'changeCategory') {
-        console.log('change Category')
         return {
             ...state,
             currentCategory: action.payload
         }
     }
     if (action.type === 'changeCurrentBook') {
-        console.log('changed book')
         return {
             ...state,
             currentBook: action.payload
         }
     }
+    if (action.type === 'ADD_TO_CART') {
+        console.log(action.payload)
+        return {
+            ...state,
+            cart: [...state.cart,action.payload]
+        }
+    }
+    console.log(state)
     return state
 }
 export default reducer

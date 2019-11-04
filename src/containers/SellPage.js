@@ -1,27 +1,35 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import SellPageComponent from '../components/SellPage/SellPage'
+import BookInfoComponent from '../components/SellPage/BookInfo/BookInfo'
+import BuyBtns from '../components/SellPage/BuyBtns/BuyBtns'
+import addToCartAction from '../actions/addToCartAction'
 
 class SellPage extends React.Component {
     render() {
-        return <SellPageComponent currentBook={this.props.currentBook}/>
+        return (
+            <div>
+                <BookInfoComponent currentBook={this.props.currentBook}/>
+                <BuyBtns addBookToCart={this.props.addBookToCart} currentBook={this.props.currentBook}/>
+            </div>
+        )
     }
 }
 
 let mapStateToProps = (state) => {
     return {
-        currentBook: state.currentBook
+        currentBook: state.currentBook,
+        cart: state.cart
     };
 }
-/*
+
 let mapDispatchToProps = (dispatch) => {
     return {
-        changeCurrentBook: (book) => {
-          dispatch(changeCurrentBook(book))  
+        addBookToCart: (book) => {
+          dispatch(addToCartAction(book))  
         }
     }
-}*/
+}
 
 
 
-export default connect(mapStateToProps)(SellPage)
+export default connect(mapStateToProps,mapDispatchToProps)(SellPage)

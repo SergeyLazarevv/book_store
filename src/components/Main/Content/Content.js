@@ -15,6 +15,7 @@ class Content extends React.Component {
                                 image={item.image} 
                                 price={item.price} 
                                 title={item.title} 
+                                currentBook={item}
                                 changeCurrentBook={this.props.changeCurrentBook} />
             })
         return (
