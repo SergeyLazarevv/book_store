@@ -6,13 +6,23 @@
     margin: 0;
     padding: 0;
 }
-.bookList {
-    padding: 5px 0;
-    list-style: none;
-    border-bottom: 1px solid rgba(0,0,0,.6);
-}
 .cartPage_price {
     font-weight: bold;
     color: rgba(20,250,9,.8);
     font-size: 30px;
+}
+
+.bookList {
+    padding: 5px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    list-style: none;
+    border-bottom: 1px solid rgba(0,0,0,.6);
+}
+.bookListItem_img {
+    height: 50px;
+    width: 40px;
+    margin-right: 20px;
 }

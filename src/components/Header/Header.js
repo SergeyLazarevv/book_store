@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import header_logo from '../../img/Header/logo.png'
-import star from '../../img/Header/star.png'
+import HeaderWishListContainer from '../../containers/HeaderWishList'
 import Search from './Search'
 import ShoppingCartContainer from '../../containers/ShoppingCart'
 import {Link} from 'react-router-dom';
@@ -12,10 +12,7 @@ let Header = () => {
             <Link to='/'> <img className='header-logo' src={header_logo} alt='logo'/></Link>
             <Search />
             <ShoppingCartContainer />
-            <Link to='/wishListPage' className='wishList'>
-                <img className='wishList-logo' src={star} alt='star'/>
-                <div>Wish List</div>
-            </Link>
+            <HeaderWishListContainer />
         </header>
     )
 }

@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import BookInfoComponent from '../components/SellPage/BookInfo/BookInfo'
 import BuyBtns from '../components/SellPage/BuyBtns/BuyBtns'
 import addToCartAction from '../actions/addToCartAction'
+import addToWishList from '../actions/addBookToWishListAction'
 
 class SellPage extends React.Component {
     render() {

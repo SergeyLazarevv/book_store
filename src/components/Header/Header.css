@@ -93,11 +93,25 @@ label p {
     justify-content: flex-end;
     font-size: 21px;
     padding: 5px 0;
+    position: relative;
     
     color: rgba(0,0,0,.8)
 }
 .wishList-logo {
     padding-bottom: 5px;
+}
+.wishList-value {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(214, 23, 214, 0.7);
+    color: white;
+    padding: 5px;
+    top:10px;
+    right:-20px;
 }
 
 @media screen and (max-width: 970px) {

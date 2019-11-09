@@ -10,8 +10,8 @@ import {BrowserRouter,Route} from 'react-router-dom'
 import SellPage from './containers/SellPage'
 import {connect} from 'react-redux'
 import CartPage from './containers/CartPage'
-import WishListPage from './components/WishList/WishListPage'
-import {Redirect} from 'react-router-dom'
+import WishListPage from './containers/WishList'
+/*import {Redirect} from 'react-router-dom'*/
 
 class App extends React.Component {
   render() {

@@ -1,14 +1,12 @@
 import React from 'react'
-import WishListPageComponent from '../components/WishList/WishListPage'
+import HeaderWishListComponent from '../components/Header/HeaderWishList'
 import addToWishList from '../actions/addBookToWishListAction'
 import addToCartAction from '../actions/addToCartAction'
 import {connect} from 'react-redux'
 
-class WishList extends React.Component {
+class HeaderWishList extends React.Component {
     render() {
-        return <WishListPageComponent addBookToWishList={this.props.addBookTooWishList} 
-                                      addBookToCart={this.props.addBookTooCart}
-                                      wishList={this.props.wishList}/>
+        return <HeaderWishListComponent wishListValue={this.props.wishList} />
     }
 }
 
@@ -30,4 +28,4 @@ let mapDispatchToProps = (dispatch) => {
 }
 
 
-export default connect(mapStateToProps,mapDispatchToProps)(WishList)
+export default connect(mapStateToProps,mapDispatchToProps)(HeaderWishList)
