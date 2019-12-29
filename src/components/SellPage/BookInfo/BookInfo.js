@@ -5,7 +5,8 @@ import './BookInfo.css'
 let BookInfo = (props) => {
     return (
         <div className='bookInfo_wrap'>
-            <img className='bookImage' src={BookImg} />
+            <img className='bookImage' src={props.currentBook.image} />
+            {console.log(BookImg)}
             <div className='bookInfo_textWrap'>
             <h2>{props.currentBook.title}</h2>
             <h3 className='bookInfo_price'>{props.currentBook.price} $</h3>

@@ -10,13 +10,13 @@ let ShoppingCart = (props) => {
                 <span>Your Cart 
                     <span className='itemsValue'>
 
-                    ({props.booksValue.length} {props.booksValue.length > 1 ? 'items' : 'item'}){/*add items*/}
+                    ({props.booksValue.length} {props.booksValue.length > 1 ? 'items' : 'item'})
                     </span>
                 </span>
             </div>
             <div className='checkout-wrap'>
                 <span className='buySum'>
-                 ${
+                 $ {
                     !props.booksValue.length>=1 ? '0' :
                        props.booksValue.reduce((priceSum,book) => priceSum + parseInt(book.price),0)
                  }
@@ -26,5 +26,4 @@ let ShoppingCart = (props) => {
             </Link>
     )
 }
-{/* props.booksValue.reduce((priceSum,book) => priceSum + parseInt(book.price)) */}
 export default ShoppingCart;

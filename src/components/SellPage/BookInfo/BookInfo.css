@@ -7,6 +7,7 @@
 .bookImage {
     width: 230px;
     height: 300px;
+    padding: 10px;
 }
 .bookInfo_price {
     font-size: 30px;

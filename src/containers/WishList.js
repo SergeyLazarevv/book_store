@@ -8,7 +8,7 @@ class WishList extends React.Component {
     render() {
         return <WishListPageComponent addBookToWishList={this.props.addBookTooWishList} 
                                       addBookToCart={this.props.addBookTooCart}
-                                      wishList={this.props.wishList}/>
+                                      wishList={this.props.wishList} />
     }
 }
 
